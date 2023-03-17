@@ -21,8 +21,7 @@ print("Mi nombre es %s %s y tengo %d años" %(name, surname, age))
 
 ## Si utilizas .format entonces utiliza {}
 print("Mi nombre es {} {} y tengo {} años".format(name, surname, age))
-print(f"Mi nombre es {name} {surname} y tengo {age} años") # LA MEJOR FORMA !!
-
+print(f"Mi nombre es {name} {surname} y tengo {age} años")
 # Desempaquetado de caracteres
 language = "Python"
 a, b, c, d, e, f = language
@@ -32,3 +31,8 @@ print(c)
 print(d)
 print(e)
 print(f)
+
+# División
+
+language_slice = language[2:5]
+print(language_slice)
