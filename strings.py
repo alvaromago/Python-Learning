@@ -21,3 +21,14 @@ print("Mi nombre es %s %s y tengo %d años" %(name, surname, age))
 
 ## Si utilizas .format entonces utiliza {}
 print("Mi nombre es {} {} y tengo {} años".format(name, surname, age))
+print(f"Mi nombre es {name} {surname} y tengo {age} años") # LA MEJOR FORMA !!
+
+# Desempaquetado de caracteres
+language = "Python"
+a, b, c, d, e, f = language
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
