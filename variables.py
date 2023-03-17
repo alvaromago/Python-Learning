@@ -1,7 +1,6 @@
-"""
-# Los nombres de las variables solo admiten minúsculas y _
+# Los nombres de las variables solo admiten minúsculas y _ 
 # No admiten -, @, $, ni empezar por números
-"""
+
 variable_string = "Variable String"
 print(variable_string)
 

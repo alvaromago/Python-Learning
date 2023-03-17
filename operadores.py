@@ -20,7 +20,7 @@ print(3 <= 5)
 print(3 == 5)
 print(3 != 5)
 
-print("Hola" > "Python") # Utilizados en String compara en base a orden alfabético (ASCII)
+print("Hola" > "Python") # Utilizados en Strings compara en base a orden alfabético (ASCII)
 print("Hola" < "Python") 
 print("Hola" >= "Python")
 print("Hola" <= "Python")
