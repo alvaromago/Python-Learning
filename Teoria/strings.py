@@ -1,5 +1,3 @@
-### Strings ###
-
 string1 = "Mi String"
 print(len(string1))
 
