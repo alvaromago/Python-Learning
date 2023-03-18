@@ -33,6 +33,21 @@ print(e)
 print(f)
 
 # División
-
-language_slice = language[2:5]
+language_slice = language[1:4]
 print(language_slice)
+language_slice = language[2:]
+print(language_slice)
+language_slice = language[:3]
+print(language_slice)
+language_slice = language[-3]
+print(language_slice)
+reverse_language = language[::-1] # Reverse
+print(reverse_language)
+
+# Funciones
+print(language.upper())
+print(language.lower())
+print(language.count("t"))
+print(language.isnumeric())
+print(language.upper().isupper())
+print(language.startswith("Py"))
