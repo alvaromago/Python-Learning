@@ -1,7 +1,5 @@
 num = int(input("Dime un número: "))
-if(num%2==0):{
+if(num%2==0):
     print("El número es PAR")
-}
-else:{
+else:
     print("El número es IMPAR")
-}
