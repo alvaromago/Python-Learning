@@ -5,4 +5,4 @@ for i in range (5):
 
 mayor = max(cadenas)
 
-print(f"La cadena más grande es {mayor}")
+print(f"La cadena mayor alfabéticamente es {mayor}")
