@@ -21,3 +21,10 @@ print(dict1)
 
 print("Álvaro" in dict1) # false
 print("Nombre" in dict1) # true (busca por clave no por valor)
+
+print(dict1.items()) # Muestra las claves y valores unidos en formato lista
+print(dict1.keys()) # Muestra las claves en formato lista
+print(dict1.values()) # Muestra los valores en formato lista
+
+dict3 = dict.fromkeys(("Nombre", "Edad")) # Esta función crea un diccionario vacio con las claves que tu le introduzcas
+print(dict3)
