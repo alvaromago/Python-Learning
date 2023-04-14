@@ -27,6 +27,7 @@ def print_nombre_con_default(nombre, apellido, alias = "Sin alias"): # Puedes de
 print_nombre_con_default("Alvaro", "Martin")
 
 def print_textos_mayusculas(*textos): # Con el asterisco defines que pueden pasarle de 1 a infintos valores a esa función
+    print(type(textos)) # Type = tuple
     for texto in textos:
         print(texto.upper())
 
