@@ -2,9 +2,12 @@
 
 class Persona:
     def __init__(self, nombre, apellido): # Constructor de clase
-        self.nombre = nombre
-        self.apellido = apellido
-        self.nombreCompleto = f"{nombre} {apellido}"
+        self.nombreCompleto = f"{nombre} {apellido}" # public nombreCompleto
+        self.__nombre = nombre # private nombre
+
+    def get_nombre(self):
+        return self.__nombre
+
     def correr(self):
         print(f"{self.nombreCompleto} está corriendo")
 
