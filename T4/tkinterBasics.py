@@ -20,6 +20,19 @@ btn1 = tkinter.Button(ventana, text="Pulsa", command=saludo)
 btn1.pack()
 
 ## TextField ##
+txt1 = tkinter.Entry(ventana, font="Helvetica 10")
+txt1.pack()
 
+lbl3 = tkinter.Label(ventana)
+lbl3.pack()
+
+
+def stringTxt():
+    cadena = txt1.get()
+    lbl3["text"] = cadena
+
+
+btn2 = tkinter.Button(ventana, text="Mostrar", command=stringTxt)
+btn2.pack()
 
 ventana.mainloop()
